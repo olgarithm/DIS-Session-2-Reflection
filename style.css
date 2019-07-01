@@ -1,5 +1,6 @@
 body {
-	font-family: "Lato";
+	font-family: Helvetica;
+	background-color: Gainsboro;
 }
 
 h1, h2 {
@@ -25,7 +26,7 @@ section {
 	margin-top: 30px;
 }
 
-#pokemon-container, #transition-container {
+#pokemon-container, #transition-container, #sex-work-container, #feminist-porn-container {
 	display: flex;
 	justify-content: center;
 }
@@ -34,6 +35,11 @@ section {
 	width: 500px;
 	height: 300px;
 	margin-right: 40px;
+}
+
+#feminist-porn-container img {
+	width: 400px;
+	height: 500px;
 }
 
 p {
