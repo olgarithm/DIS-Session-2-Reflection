@@ -1,0 +1,41 @@
+body {
+	font-family: "Lato";
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+h1 {
+	padding-top: 50px;
+	text-decoration: underline;
+}
+
+h2 {
+	padding-bottom: 20px;
+}
+
+section {
+	margin-top: 30px;
+	padding-left: 25%;
+	padding-right: 25%;
+}
+
+#intro {
+	margin-top: 30px;
+}
+
+#pokemon-container, #transition-container {
+	display: flex;
+	justify-content: center;
+}
+
+#pokemon-container img {
+	width: 500px;
+	height: 300px;
+	margin-right: 40px;
+}
+
+p {
+	font-size: 14pt;
+}
